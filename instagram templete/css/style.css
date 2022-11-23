@@ -1,0 +1,160 @@
+body {
+  background-color: #F5F5F5; }
+
+.all_combine {
+  display: flex;
+  justify-content: space-between; }
+  .all_combine .first {
+    background-color: white;
+    width: 250px; }
+    .all_combine .first h1 {
+      font-size: 25px;
+      color: black;
+      font-family: "Lobster", cursive;
+      font-weight: 300;
+      padding: 30px;
+      margin: 0; }
+    .all_combine .first ul {
+      list-style: none; }
+      .all_combine .first ul li {
+        margin: 35px 0px 35px -15px; }
+        .all_combine .first ul li a {
+          color: black;
+          text-decoration: none;
+          font-family: Arial, Helvetica, sans-serif;
+          font-weight: 500; }
+          .all_combine .first ul li a i {
+            font-size: 25px;
+            margin-right: 15px; }
+          .all_combine .first ul li a img {
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            margin-right: 15px; }
+  .all_combine .combine {
+    display: flex;
+    margin-right: 80px; }
+    .all_combine .combine .middle-block {
+      margin-right: 20px; }
+      .all_combine .combine .middle-block .second {
+        display: flex;
+        background-color: white;
+        width: 500px;
+        box-sizing: border-box;
+        padding: 10px;
+        border: 1px solid #ddd;
+        cursor: pointer; }
+        .all_combine .combine .middle-block .second .image {
+          width: 60px;
+          padding: 12px; }
+          .all_combine .combine .middle-block .second .image img {
+            width: 50px;
+            height: 58px;
+            border-radius: 50%;
+            outline: 2px #da1313 solid;
+            outline-offset: 3px; }
+          .all_combine .combine .middle-block .second .image p {
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 400;
+            margin-top: 5px;
+            margin-bottom: 0; }
+      .all_combine .combine .middle-block .third {
+        background-color: white;
+        width: 500px;
+        margin-top: 10px;
+        border: 1px solid #ddd; }
+        .all_combine .combine .middle-block .third:hover {
+          cursor: pointer; }
+        .all_combine .combine .middle-block .third .image {
+          display: flex;
+          align-items: center;
+          box-sizing: border-box;
+          padding: 15px; }
+          .all_combine .combine .middle-block .third .image img {
+            width: 30px;
+            height: 38px;
+            border-radius: 50%;
+            outline: 2px #da1313 solid;
+            outline-offset: 3px;
+            margin-right: 15px; }
+          .all_combine .combine .middle-block .third .image .content h6 {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 400; }
+          .all_combine .combine .middle-block .third .image .content p {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 400; }
+        .all_combine .combine .middle-block .third .bottom-content .content {
+          display: flex;
+          justify-content: space-between; }
+          .all_combine .combine .middle-block .third .bottom-content .content i {
+            font-size: 25px;
+            margin: 0 5px; }
+          .all_combine .combine .middle-block .third .bottom-content .content i:hover {
+            opacity: 0.5; }
+        .all_combine .combine .middle-block .third .bottom-content p {
+          color: black;
+          font-size: 12px;
+          font-family: Arial, Helvetica, sans-serif;
+          font-weight: 400; }
+          .all_combine .combine .middle-block .third .bottom-content p.light-color {
+            color: #555; }
+        .all_combine .combine .middle-block .third .bottom-content .coment {
+          display: flex;
+          align-items: center; }
+          .all_combine .combine .middle-block .third .bottom-content .coment i {
+            font-size: 25px;
+            margin-right: 10px; }
+    .all_combine .combine .last-block {
+      width: 350px; }
+      .all_combine .combine .last-block .image {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        box-sizing: border-box;
+        padding: 5px; }
+        .all_combine .combine .last-block .image img {
+          width: 50px;
+          height: 58px;
+          border-radius: 50%;
+          margin-right: 15px; }
+        .all_combine .combine .last-block .image .img1 {
+          width: 40px;
+          height: 48px; }
+        .all_combine .combine .last-block .image .content {
+          margin-left: -140px; }
+          .all_combine .combine .last-block .image .content a {
+            font-size: 13px;
+            color: black;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 600;
+            text-decoration: none; }
+          .all_combine .combine .last-block .image .content p {
+            font-size: 12px;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 300; }
+        .all_combine .combine .last-block .image .switch {
+          font-size: 12px;
+          color: blue;
+          font-family: Arial, Helvetica, sans-serif;
+          text-decoration: none; }
+      .all_combine .combine .last-block .sug {
+        display: flex;
+        justify-content: space-between; }
+        .all_combine .combine .last-block .sug p {
+          margin: 0; }
+        .all_combine .combine .last-block .sug a {
+          font-size: 12px;
+          font-family: Arial, Helvetica, sans-serif;
+          text-decoration: none;
+          color: black; }
+
+@media only screen and (min-width: 768px) and (max-width: 1024) {
+  .first {
+    width: 150px; } }
+
+/*# sourceMappingURL=style.css.map */
